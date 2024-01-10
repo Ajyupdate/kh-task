@@ -1,4 +1,3 @@
-import store from "@/store";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -18,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Providers store={store}>{children}</Providers>
+        <Providers>{children}</Providers>
       </body>
       <script
         src="https://unpkg.com/flowbite@1.5.1/dist/flowbite.js"
