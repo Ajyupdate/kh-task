@@ -16,7 +16,7 @@ export default function Transactions() {
   return (
     <Box>
       <Layout>
-        <Box mt={24}>
+        <Box mt={{ md: 20, base: 2 }}>
           <Flex justify={"space-between"}>
             <Box>
               <Select placeholder="All Account">
@@ -85,7 +85,7 @@ export default function Transactions() {
             </HStack>
           </Box>
         </Box>
-        <Box mt={4}>
+        <Box mt={4} display={{ md: "block", base: "none" }}>
           <Divider />
         </Box>
         <TransactionTable />
