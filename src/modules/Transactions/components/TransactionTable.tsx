@@ -52,7 +52,7 @@ const TransactionTable = () => {
       try {
         dispatch(setTransactions(AccountData));
       } catch (error) {
-        console.error("Error fetching data:", error);
+        // console.error("Error fetching data:", error);
       }
     };
 
