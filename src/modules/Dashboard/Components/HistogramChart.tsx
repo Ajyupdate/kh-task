@@ -39,11 +39,18 @@ export const options = {
   },
 };
 const labels = [
-  "17 - 24 Sep 2023",
-  "25 - 1 Sep 2023",
-  "2 - 9 Sep 2023",
-  "10 - 17 Sep 2023",
-  "18 - 25 Sep 2023",
+  "Jan",
+  "Feb",
+  "Mar",
+  "Apr",
+  "May",
+  "Jun",
+  "Jul",
+  "Aug",
+  "Sep",
+  "Oct",
+  "Nov",
+  "Dec",
 ];
 
 export const data = {
@@ -53,7 +60,7 @@ export const data = {
       fill: true,
       label: "Data",
       // data: labels.map(() => faker.number.int({ min: 25.0, max: 1000 })),
-      data: [50.0, 38.0, 36.0, 45, 42],
+      data: [280, 420, 380, 280, 150, 190, 150, 190, 160, 190, 200, 220],
       borderColor: "rgb(237, 30, 121)",
       backgroundColor: "orange",
       barPercentage: 0.8, // Adjust as needed

@@ -16,7 +16,7 @@ export default function Transactions() {
   return (
     <Box>
       <Layout>
-        <Box>
+        <Box mt={24}>
           <Flex justify={"space-between"}>
             <Box>
               <Select placeholder="All Account">
@@ -28,11 +28,19 @@ export default function Transactions() {
 
             <Box>
               <HStack>
-                <Text color={"#71717A"} fontSize={"14px"}>
+                <Text
+                  color={"#71717A"}
+                  fontSize={"14px"}
+                  display={{ md: "block", base: "none" }}
+                >
                   Select Date Range:
                 </Text>
 
-                <Card variant={"outline"} p={1}>
+                <Card
+                  variant={"outline"}
+                  p={1}
+                  display={{ md: "block", base: "none" }}
+                >
                   <Flex rounded={"full"} align="center" bg={"white"}>
                     <Box mr={2}>
                       <Image src={calenderIcon} alt="calender" />
@@ -57,6 +65,25 @@ export default function Transactions() {
               </HStack>
             </Box>
           </Flex>
+          <Box display={{ md: "none", base: "block" }} mt={4}>
+            <HStack>
+              <Text color={"#71717A"} fontSize={"14px"}>
+                Select Date Range:
+              </Text>
+
+              <Card variant={"outline"} p={1}>
+                <Flex rounded={"full"} align="center" bg={"white"}>
+                  <Box mr={2}>
+                    <Image src={calenderIcon} alt="calender" />
+                  </Box>
+
+                  <Text fontSize={"14px"} color={"#71717A"}>
+                    June 6, 2023 - Jun 15, 2023
+                  </Text>
+                </Flex>
+              </Card>
+            </HStack>
+          </Box>
         </Box>
         <Box mt={4}>
           <Divider />
