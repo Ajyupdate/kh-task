@@ -1,5 +1,7 @@
 // import { mockData } from "../../path-to-your-mock-data-file"; // Update the path accordingly
 
+import { NextApiRequest, NextApiResponse } from "next";
+
 interface MockData {
   id: number;
   amount: string;
@@ -128,7 +130,7 @@ const mockData: MockData[] = [
     status: "Processed",
   },
 ];
-export default async function GET(req, res) {
+export default async function GET(req: NextApiRequest, res: NextApiResponse) {
   console.log("read");
   try {
     res.status(200).json(mockData);
