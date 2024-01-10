@@ -164,7 +164,7 @@ const TransactionTable = () => {
       </Box>
 
       <Box display={{ md: "none", base: "block" }}>
-        <Heading>Transactions</Heading>
+        <Heading mt={8}>Transactions</Heading>
 
         <Box>
           {paginatedTransactions.map((data) => (
@@ -218,7 +218,7 @@ const TransactionTable = () => {
       </Box>
       <Box
         mt={4}
-        display={{ md: "flex", base: "flex" }}
+        display={{ md: "flex", base: "none" }}
         justifyContent="space-between"
         alignItems="center"
       >
