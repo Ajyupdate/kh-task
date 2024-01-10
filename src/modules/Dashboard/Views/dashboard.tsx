@@ -14,7 +14,7 @@ export default function Dashboard() {
   return (
     <Box>
       <Layout>
-        <Box>
+        <Box mt={16}>
           <Tabs>
             <TabList>
               <Tab>Online Payment</Tab>

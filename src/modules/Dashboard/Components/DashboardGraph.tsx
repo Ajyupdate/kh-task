@@ -1,4 +1,4 @@
-import { Box, Flex, HStack, Select, Text } from "@chakra-ui/react";
+import { Box, Card, Flex, HStack, Select, Text } from "@chakra-ui/react";
 import HistogramChart from "./HistogramChart";
 
 export default function DashboardGraph() {
@@ -17,10 +17,12 @@ export default function DashboardGraph() {
             Showing data for
           </Text>
 
-          <Select>
-            <option value="option1">Last 7 days</option>
-            <option value="option2">Last 14 days</option>
-          </Select>
+          <Card>
+            <Select>
+              <option value="option1">Last 7 days</option>
+              <option value="option2">Last 14 days</option>
+            </Select>
+          </Card>
         </HStack>
 
         <HStack spacing={4}>

@@ -90,6 +90,7 @@ export default function AccountDetailsCard({
                 </Box>
               </Flex>
               <Heading
+                display={{ md: "none", base: "block" }}
                 letterSpacing={"1%"}
                 fontWeight={500}
                 color={"#000000"}
