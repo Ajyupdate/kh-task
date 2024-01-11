@@ -164,7 +164,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               <li className="rounded-none">
                 <a
                   href="#"
-                  className="flex items-center p-4 text-gray-900 rounded-none  dark:text-white hover:bg-blue-300 dark:hover:bg-gray-700 group"
+                  className="flex items-center p-6 text-gray-900 rounded-none  dark:text-white hover:bg-blue-300 dark:hover:bg-gray-700 group"
                 >
                   <Image src={www} alt="Getting started" />
 
@@ -190,7 +190,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               <li>
                 <a
                   href="#"
-                  className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-blue-300 dark:hover:bg-gray-700 group"
+                  className="flex items-center p-4 text-gray-900 rounded-lg dark:text-white hover:bg-blue-300 dark:hover:bg-gray-700 group"
                 >
                   <Image src={account} alt="account icon" />
                   <span className="flex-1 ms-3 whitespace-nowrap">
@@ -201,7 +201,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               <li>
                 <a
                   href="#"
-                  className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-blue-300 dark:hover:bg-gray-700 group"
+                  className="flex items-center p-4 text-gray-900 rounded-lg dark:text-white hover:bg-blue-300 dark:hover:bg-gray-700 group"
                 >
                   <Image src={transferIcon} alt="transfers" />
                   <span className="flex-1 ms-3 whitespace-nowrap">
@@ -229,7 +229,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               <li>
                 <a
                   href="#"
-                  className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-blue-300 dark:hover:bg-gray-700 group"
+                  className="flex items-center p-4 text-gray-900 rounded-lg dark:text-white hover:bg-blue-300 dark:hover:bg-gray-700 group"
                 >
                   <Image src={setting} alt="Setting icon" />
                   <span className="flex-1 ms-3 whitespace-nowrap">
